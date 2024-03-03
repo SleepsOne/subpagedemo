@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Đăng kí</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h2>Đăng kí</h2>
+    <form id="register-form" >
+      <label for="name">Tên người dùng:</label>
+      <input type="text" id="name" name="name" required />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <br />
+      <label for="password">Mật khẩu:</label>
+      <input type="password" id="password" name="password" required />
+      <br />
+      <label for="confirm-password">Xác nhận mật khẩu:</label>
+      <input
+        type="password"
+        id="confirm-password"
+        name="confirm-password"
+        required
+      />
+      <br />
+      <button id="register-button" onclick = "validateAndRedirectRegister(event)">Đăng kí</button>
+    </form>
+    <!-- <p id="success-message" style="display:none">Đăng kí thành công, vui lòng đăng nhập lại !</p> -->
+
+    <script src="script-login.js"></script>
+  </body>
+</html>

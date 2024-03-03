@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ADMIN - Đăng nhập</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h2>ADMIN</h2>
+    <form id="login-form">
+      <img
+        class="ptit-icon"
+        src="https://play-lh.googleusercontent.com/CoHZBnuWQRT15pi23JlZwi0WswnJEZXzPRGP3CYwn_Fid-SRkw8v2suUi31YvwC7zQ=w240-h480-rw"
+        alt="ptit icon"
+      />
+      <label for="username">Tên đăng nhập:</label>
+      <input type="text" id="username" name="username" required />
+      
+      <label for="password">Mật khẩu:</label>
+      <input type="password" id="password" name="password" required />
+      <br />
+        
+      <button id="login-button" class="login-button-admin" onclick=" validateLoginForm() ">Đăng nhập</button>
+      
+
+    </form>
+
+    <script src="script-login.js"></script>
+  </body>
+</html>

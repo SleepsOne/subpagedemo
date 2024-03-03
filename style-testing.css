@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(158, 2, 2);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.tim-kiem {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#tim-kiem-ten {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+}
+
+#tim-kiem-trang-thai {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.danh-sach-ky-thi {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.ky-thi {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.ten-ky-thi {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.loai-ky-thi, .trang-thai, .da-hoan-thanh {
+    margin-bottom: 10px;
+}
+
+.trang-thai {
+    color: #333;
+}
+
+.da-hoan-thanh {
+    color: green;
+}
+
+
+.tim-kiem {
+    align-items: center;
+}
+
+#tim-kiem-ten:focus {
+    outline: none;
+    border-color: #333;
+}
+
+#tim-kiem-trang-thai {
+    width: 200px;
+}
+
+
+.ten-ky-thi:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ten-ky-thi.active {
+    background-color: #f0f0f0;
+}
+
+
+
+#tim-kiem-ten {
+    margin: 20px 0px;
+    display: block;
+}
+
+
+#user-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+#user-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+  #logout-btn {
+    border: none;
+    /* padding: 5px 10px; */
+    cursor: pointer;
+  }
+
+

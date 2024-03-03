@@ -1,0 +1,119 @@
+/* style.css */
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  .ptit-icon {
+    margin: 10px auto;
+    display: block;
+    width: 50%;
+  }
+  form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  #login-button:hover {
+    background-color: rgb(197, 19, 19);
+  }
+  #register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4286f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #register-button:hover {
+    background-color: #1c6dd7;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #blue;
+    outline: none;
+  }
+  
+  input[type="submit"]:hover,
+  button:hover {
+    background-color: rgb(125, 3, 3);
+  }
+  
+  .admin {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    color:#5f5a5a
+  }
+  .admin:link {
+    text-align: center;
+    color: #5f5a5a;
+    text-decoration: none;
+  }
+  .admin:visited {
+    /* color: #777; */
+    color: #5f5a5a;
+  }
+  .admin:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+  }
+
+  #success-message {
+    display: none;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.success-message {
+  color: #3c763d;
+  text-align: center;
+}
+  
+  
